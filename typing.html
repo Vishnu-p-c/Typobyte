@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>two min typing</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body onload="randomSentencess()">
+    <nav class="mainnav">
+            <h2 class="head">TypoByte</h2>
+         <div class="nav-links">
+            <a href="dailych.html">Fact Zone</a>
+            <a href="quiz.html">Quizzes</a>
+            <a href="projects.html">Projects</a>
+            <a href="index.html">Home</a>
+        </div>
+    </nav>
+    <h2>Typing Practice</h2>
+    <input type="text" id="input" autocomplete="off">
+    <div id="output"></div>
+<div id="buttons"></div>
+    <button id="next" >Next</button>
+   <button id="back"><a href="typo.html">Back</a></button>
+</div> 
+<div id="alertbox">
+  <h1>Well Done</h1>
+    <p>You typed at</p>
+    <span id="wpm" style="font-size: 50px;"></span>
+    <p>Keep practicing</p>
+    <button id="alertbut"  onclick="closealert()">OK</button>
+</div>
+    <script src="script.js"></script>
+</body>
+</html>

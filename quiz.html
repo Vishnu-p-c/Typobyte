@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quizzes</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body onload="quiz()">
+    <nav class="mainnav">
+        <h2 class="head">TypoByte</h2>
+     <div class="nav-links">
+        <a href="dailych.html">Fact Zone</a>
+        <a href="typing.html">Typing Test </a>
+         <a href="projects.html">project</a>
+        <a href="index.html">Home</a>
+       
+    </div>
+</nav>
+<h2 class="quizhead">Quizzes</h2>
+   <div id="qnoutput"></div>
+    <div class="showopn" ></div><br>
+    <div class="showopn" ></div><br>
+    <div class="showopn"></div><br>
+    <div class="showopn"></div>
+<button id="subbut" onclick="quiz()">Next</button>
+<div id="alertbox">
+    <h1>Well played!</h1>
+      <span id="corrects" style="font-size: 60px;"></span>
+      <p>Keep practicing</p>
+      <button id="alertbut"onclick="window.location.href='typo.html'">OK</button>
+      <button id="tryagain" onclick="closealert()">Try again</button>
+    </div>
+  
+<script src="script.js"></script>
+
+    
+</body>
+</html>
